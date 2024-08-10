@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const URL = "https://moveo-coding-server-production.up.railway.app";
-export default function LobbyPage(props) {
+export default function LobbyPage() {
   const [codeBlocks, setCodeBlocks] = useState([]);
 
   useEffect(() => {
@@ -16,7 +16,6 @@ export default function LobbyPage(props) {
           throw new Error("Network response was not ok");
         }
         const data = await response.json();
-        //console.log(data);
         setCodeBlocks(data);
       } catch (error) {
         console.error("Error fetching code blocks:", error);

@@ -38,7 +38,6 @@ body {
 }
 
 .header h1 {
-  /* Non-accessible color */
   color: #edc84b;
   /* color: #af8602; */
 
@@ -77,9 +76,7 @@ body {
 }
 
 .second-header h1 {
-  /* Non-accessible color */
   color: #edc84b;
-  /* color: #af8602; */
 
   text-transform: uppercase;
   text-align: center;
@@ -193,8 +190,13 @@ body {
 
 .btn {
   color: inherit;
-  font-family: inherit;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-family: "Roboto Mono", sans-serif;
   border: none;
+  border-radius: 5px;
   font-size: 1.4rem;
   font-weight: 500;
   background-color: #edc84b;
@@ -204,7 +206,27 @@ body {
 }
 
 .btn:hover {
-  background-color: #e9bb24;
+  background-color: #ebcf76;
+}
+
+.role {
+  color: #ecbe27;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.8rem;
+}
+
+.students {
+  color: #ecbe27;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1.6rem;
+}
+
+.smiley {
+  text-align: "center";
+  margin-top: "20px";
+  color: #ecbe27;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 5rem;
 }
 
 /*
