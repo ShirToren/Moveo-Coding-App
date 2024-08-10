@@ -95,9 +95,6 @@ export default function CodeBlockPage() {
   return (
     <div className="container">
       <Header title={data.title} />
-      <button className="btn" onClick={handleLeavingRoom}>
-        Back to lobby
-      </button>
       <Editor
         height="300px"
         width="600px"
@@ -110,6 +107,9 @@ export default function CodeBlockPage() {
       {renderSmiley()}
       <h1 className="role">Role: {role === "Admin" ? "Mentor" : "Student"}</h1>
       <h1 className="students">Students in the room: {numOfStudents}</h1>
+      <button className="btn" onClick={handleLeavingRoom}>
+        Back to lobby
+      </button>
     </div>
   );
 }

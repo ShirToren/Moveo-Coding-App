@@ -190,10 +190,6 @@ body {
 
 .btn {
   color: inherit;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  padding: 10px 20px;
   font-family: "Roboto Mono", sans-serif;
   border: none;
   border-radius: 5px;
